@@ -38,7 +38,7 @@ Para correr este proyecto, necesitarás [Foundry](https://getfoundry.sh/) instal
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://docs.github.com/es/repositories](https://docs.github.com/es/repositories)
+    git clone [https://github.com/michelmassaad/KipuBankV3](https://github.com/michelmassaad/KipuBankV3)
     cd KipuBankV3
     ```
 
@@ -77,7 +77,7 @@ El proyecto está configurado para correr con Foundry. Los tests se ejecutan en 
 **[https://sepolia.etherscan.io/address/0x0f7a2D9172e94305b3Ad5A6Ebf6e8e85890a7a93](https://sepolia.etherscan.io/address/0x0f7a2D9172e94305b3Ad5A6Ebf6e8e85890a7a93)**
 
 **💻 Repositorio:**
-`https://docs.github.com/es/repositories`
+**[https://github.com/michelmassaad/KipuBankV3](https://github.com/michelmassaad/KipuBankV3)**
 
 **📥 Parámetros del Constructor (Usados en `DeployKipuBankV3.s.sol`):**
 ```solidity
