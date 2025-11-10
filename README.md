@@ -85,6 +85,7 @@ PRIVATE_KEY="0xTU_CLAVE_PRIVADA_AQUI"
 
 # Clave API de Etherscan (necesaria para verificar el contrato automáticamente)
 ETHERSCAN_API_KEY="TU_API_KEY_DE_ETHERSCAN_AQUI"
+```
 ---
 ### 🔹 Despliegue en Testnet (Sepolia)
 
