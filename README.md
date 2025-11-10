@@ -70,7 +70,22 @@ El proyecto está configurado para correr con Foundry. Los tests se ejecutan en 
     *![Informe de Cobertura de Pruebas](coverage/coverage-report.png)*
 
 ---
+### 🔹 Configuración del Entorno (`.env`)
 
+Para desplegar y verificar el contrato en una red de prueba como Sepolia, necesitarás un archivo `.env` en la raíz del proyecto. Este archivo **NUNCA** debe ser subido a GitHub (asegúrate de que esté en tu `.gitignore`).
+
+El archivo `.env` debe contener las siguientes claves:
+
+```bash
+# URL del nodo RPC para la red Sepolia ([https://chainlist.org/?search=sepo](https://chainlist.org/?search=sepo))
+RPC_URL="[https://rpc.connext-sepolia.gelato.digital](https://rpc.connext-sepolia.gelato.digital)"
+
+# Clave privada de la billetera que pagará el gas del despliegue
+PRIVATE_KEY="0xTU_CLAVE_PRIVADA_AQUI"
+
+# Clave API de Etherscan (necesaria para verificar el contrato automáticamente)
+ETHERSCAN_API_KEY="TU_API_KEY_DE_ETHERSCAN_AQUI"
+---
 ### 🔹 Despliegue en Testnet (Sepolia)
 
 **📜 Dirección del Contrato Verificado (Sepolia Etherscan):**
