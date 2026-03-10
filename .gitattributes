@@ -1,4 +1,7 @@
-# Ignorar los archivos web en las estadísticas para darle prioridad a Solidity
+# Ignorar archivos del frontend en las estadísticas de lenguajes
 *.html linguist-detectable=false
 *.css linguist-detectable=false
 *.js linguist-detectable=false
+
+# Forzar a que detecte Solidity
+*.sol linguist-detectable=true
