@@ -1,0 +1,4 @@
+# Ignorar los archivos web en las estadísticas para darle prioridad a Solidity
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
